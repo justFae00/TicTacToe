@@ -1,0 +1,74 @@
+body {
+  background-color: rgb(222, 222, 222);
+}
+
+* {
+  font-family: mooli;
+}
+
+#title {
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(78, 78, 86);
+}
+
+#state {
+  margin-top: -15px;
+  margin-left: 10px;
+  font-size: 20px;
+  color: rgb(78, 78, 86);
+}
+
+#play-again-container {
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+#play-again-button {
+  visibility: hidden;
+  font-size: 18px;
+  padding: 8px 14px;
+  border-radius: 15px;
+  border: solid 1px rgb(222, 222, 222);
+  background-color: rgb(78, 78, 86);
+  color: rgb(222, 222, 222);
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+#play-again-button:hover {
+  background-color: rgb(222, 222, 222);
+  border: solid 1px rgb(84, 84, 88);
+  color: rgb(78, 78, 86);
+}
+
+.main-container {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  margin-top: -30px;
+}
+
+.cell {
+  background-color: rgb(182, 174, 255);
+  color: rgb(78, 78, 86);
+  text-align: center;
+  line-height: 180px;
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+  margin: 1px;
+  width: 185px;
+  height: 185px;
+  cursor: pointer;
+  font-size: 65px;
+  transition: all 0.25s;
+}
+
+.cell:hover {
+  background-color: rgb(240, 145, 255);
+}
